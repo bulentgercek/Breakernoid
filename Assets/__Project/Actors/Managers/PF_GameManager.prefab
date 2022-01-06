@@ -1,0 +1,244 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &682477967023190337
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 682477967023190338}
+  - component: {fileID: 911966840830697005}
+  - component: {fileID: 8594338733590475207}
+  - component: {fileID: 388369327}
+  - component: {fileID: 1556412132076318431}
+  - component: {fileID: 8056302438699440887}
+  - component: {fileID: 2927199954767885747}
+  - component: {fileID: 341212158040626128}
+  m_Layer: 0
+  m_Name: PF_GameManager
+  m_TagString: GameController
+  m_Icon: {fileID: -1412012063857583412, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &682477967023190338
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 682477967023190337}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &911966840830697005
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 682477967023190337}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33e5cfd724787c74790f4eaeab95b6a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _jsonFile: {fileID: 4900000, guid: 92a39192e022bdc4a841afeaec0a7170, type: 3}
+  _level: {fileID: 0}
+--- !u!114 &8594338733590475207
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 682477967023190337}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cdc6fbe16547e94ebc874ec17faa1bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _blockBreakSprites:
+  - {fileID: 1093769094783989784, guid: c24ef1c330cf66c48aacebb52f0fb82d, type: 3}
+  - {fileID: 1622284661, guid: c24ef1c330cf66c48aacebb52f0fb82d, type: 3}
+  - {fileID: 1297414373, guid: c24ef1c330cf66c48aacebb52f0fb82d, type: 3}
+  _blockList:
+  - pfBlock: {fileID: 5032748278105064150, guid: dfedec42bb4a2544eb389044c52d34b2, type: 3}
+    score: 5
+    destroyVFX: {fileID: 100000, guid: 7d846c02296ef4dc4abff04ce3e5262c, type: 3}
+    isBreakable: 1
+    blockHealth: 1
+    dropType: 0
+  - pfBlock: {fileID: 5931533205078120757, guid: 3d835317096fe374eaafc9cc6fdee7db, type: 3}
+    score: 20
+    destroyVFX: {fileID: 100000, guid: 7d846c02296ef4dc4abff04ce3e5262c, type: 3}
+    isBreakable: 1
+    blockHealth: 2
+    dropType: 0
+  - pfBlock: {fileID: 6241958514953523972, guid: a5d7319b6d2158041ad7e630c404137d, type: 3}
+    score: 40
+    destroyVFX: {fileID: 100000, guid: 7d846c02296ef4dc4abff04ce3e5262c, type: 3}
+    isBreakable: 1
+    blockHealth: 3
+    dropType: 0
+  - pfBlock: {fileID: 5931533205078120757, guid: 6cfe7a382eca8554eba8cd7b8c0cb76c, type: 3}
+    score: 0
+    destroyVFX: {fileID: 0}
+    isBreakable: 0
+    blockHealth: 1
+    dropType: 0
+  - pfBlock: {fileID: 5032748278105064150, guid: 1a53f44ac6cf3ad4f9b2364cc85f83d1, type: 3}
+    score: 100
+    destroyVFX: {fileID: 100000, guid: 7d846c02296ef4dc4abff04ce3e5262c, type: 3}
+    isBreakable: 1
+    blockHealth: 1
+    dropType: 1
+--- !u!114 &388369327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 682477967023190337}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b28c84ab197d68b4c9db270d68eceeec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1556412132076318431
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 682477967023190337}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb95e9fb8f9b2d84697a65f2fc9028f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _launchKey: 32
+  _launchWithMouseBut: 323
+  _lazerKey: 32
+  _activateLazerKey: 108
+  _pauseKey: 112
+  _quitKey: 27
+  _autPlayKey: 99
+  _gameSpeedUpKey: 119
+  _gameSpeedDownKey: 115
+  _endLevelKey: 110
+--- !u!114 &8056302438699440887
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 682477967023190337}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db5494ca0fb5e8c4480d72ac3a0abe01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _screenDataList:
+  - screenType: 0
+    gameObjects:
+    - {fileID: 0}
+  - screenType: 1
+    gameObjects:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+  - screenType: 2
+    gameObjects:
+    - {fileID: 0}
+  - screenType: 3
+    gameObjects:
+    - {fileID: 0}
+  - screenType: 4
+    gameObjects:
+    - {fileID: 0}
+--- !u!114 &2927199954767885747
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 682477967023190337}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49713581342bbb1469286df15fad2a2f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _dropList:
+  - dropType: 1
+    pfDrop: {fileID: 6274624639346138627, guid: d80e63e5ce2cf32448796276bc1e3a4f, type: 3}
+    jobList:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 341212158040626128}
+          m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+          m_MethodName: set_lazerActive
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 100
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
+        - m_Target: {fileID: 341212158040626128}
+          m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+          m_MethodName: set_lazerAmmoCount
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 50
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+--- !u!114 &341212158040626128
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 682477967023190337}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4da6df9b9721b34c991e7383fd310bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _gameSpeed: 1
+  _autoPlay: 0
+  _gamePaused: 0
+  _dynamicObjectsParent: {fileID: 0}
+  _scoreText: {fileID: 0}
+  _blocksParent: {fileID: 0}
+  _destroyBlockClip: {fileID: 8300000, guid: 46ab61b6856324e4ebb95fdc4ca1233a, type: 3}
+  _pfBackground: {fileID: 0}
+  _paddle: {fileID: 0}
+  _screnWidthInUnit: 9
+  _paddleMinX: 1.16
+  _paddleMaxX: 7.834
+  _dropFallSpeed: {x: 0, y: -3}
+  _dropMaxLifeInSeconds: 2.5
+  _lazerActive: 0
+  _lazerAmmoCount: 0
+  _pfLazer: {fileID: 2528825167735442827, guid: 4704ef41715aaa3449b8fcb67e8745a6, type: 3}
+  _lazerSpeed: {x: 0, y: 5}
+  _lazerYPaddingWithPaddle: 1
+  _ball: {fileID: 0}
+  _ballRandomFactor: 0.3
+  _ballSounds:
+  - {fileID: 8300000, guid: dff21ec0ecd23904e8b36844026e4718, type: 3}
+  - {fileID: 8300000, guid: 8f6085b48d38955429b4cf1f05100780, type: 3}
+  - {fileID: 8300000, guid: 08d8cdc766ac5f347a9d7c4d6c849f71, type: 3}

@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Dynamic
+  - Blocks
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Projectiles
+  - Water
+  - UI
+  - Paddle
+  - Ball
+  - Blocks
+  - Drops
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: GameBackground
+    uniqueID: 836969139
+    locked: 0
+  - name: InGameBackground
+    uniqueID: 3837674139
+    locked: 0
+  - name: InGame
+    uniqueID: 316302599
+    locked: 0
+  - name: InGameForeground
+    uniqueID: 972199253
+    locked: 0
+  - name: MenuForeground
+    uniqueID: 3038219683
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0

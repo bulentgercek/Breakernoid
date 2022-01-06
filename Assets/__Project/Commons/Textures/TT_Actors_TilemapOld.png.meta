@@ -1,0 +1,397 @@
+fileFormatVersion: 2
+guid: 40207744deb09b44aaf4a573335c1dc9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3323141583157389663
+    second: TT_Blocks_Default_TM
+  - first:
+      213: -8697499996772633
+    second: TT_Blocks_Default_Broken_1_TM
+  - first:
+      213: 7648046777282200629
+    second: TT_Blocks_Default_Broken_2_TM
+  - first:
+      213: 32357849434970921
+    second: TT_Paddle_TM
+  - first:
+      213: 2179655360162169965
+    second: TT_Ball_TM
+  - first:
+      213: 1458336129643482204
+    second: TT_Blocks_Special_Anim_1_TM
+  - first:
+      213: -5872923419214462252
+    second: TT_Blocks_Special_Anim_2_TM
+  - first:
+      213: -4911479901920271010
+    second: TT_Blocks_Special_Anim_3_TM
+  - first:
+      213: 1093769094783989784
+    second: TT_Blocks_Special_Anim_4_TM
+  - first:
+      213: -6766127608730598664
+    second: TT_Lazer_TM
+  - first:
+      213: -1255852105528911858
+    second: TT_Drop_Lazer_TM
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 96
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TT_Blocks_Default_TM
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 415
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a6139d3654d1e1d0800000000000000
+      internalID: -3323141583157389663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TT_Blocks_Default_Broken_1_TM
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 415
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e6224a7ba911eff0800000000000000
+      internalID: -8697499996772633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TT_Blocks_Default_Broken_2_TM
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 415
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5340a79d502532a60800000000000000
+      internalID: 7648046777282200629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TT_Paddle_TM
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 261
+        width: 192
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92b5449ea45f27000800000000000000
+      internalID: 32357849434970921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TT_Ball_TM
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 53
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d640e337001bf3e10800000000000000
+      internalID: 2179655360162169965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TT_Blocks_Special_Anim_1_TM
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 318
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5c848abbfc0d3410800000000000000
+      internalID: 1458336129643482204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TT_Blocks_Special_Anim_2_TM
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 318
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d246ac244f2f7ea0800000000000000
+      internalID: -5872923419214462252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TT_Blocks_Special_Anim_3_TM
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 318
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5562942d0be6dbb0800000000000000
+      internalID: -4911479901920271010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TT_Blocks_Special_Anim_4_TM
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 318
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81876e85239dd2f00800000000000000
+      internalID: 1093769094783989784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TT_Lazer_TM
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 1
+        width: 12
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f246a0d9c2e912a0800000000000000
+      internalID: -6766127608730598664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TT_Drop_Lazer_TM
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 173
+        width: 78
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e08d58fe921529ee0800000000000000
+      internalID: -1255852105528911858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      TT_Paddle_TM: 32357849434970921
+      TT_Blocks_Special_Anim_2_TM: -5872923419214462252
+      TT_Blocks_Default_TM: -3323141583157389663
+      TT_Lazer_TM: -6766127608730598664
+      TT_Blocks_Default_Broken_1_TM: -8697499996772633
+      TT_Blocks_Special_Anim_3_TM: -4911479901920271010
+      TT_Drop_Lazer_TM: -1255852105528911858
+      TT_Blocks_Special_Anim_4_TM: 1093769094783989784
+      TT_Ball_TM: 2179655360162169965
+      TT_Blocks_Special_Anim_1_TM: 1458336129643482204
+      TT_Blocks_Default_Broken_2_TM: 7648046777282200629
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
